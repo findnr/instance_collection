@@ -7,27 +7,16 @@
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 import { defineConfig } from 'vitepress'
-
+import setNav from "./confignav"
+import setSidebar from "./configsidebar"
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "收集实战案例，方便大家查阅",
   description: "收集实战案例，方便大家查阅",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    nav: setNav(),
+    sidebar: setSidebar(),
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
