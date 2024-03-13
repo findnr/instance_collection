@@ -5,14 +5,17 @@ layout: home
 hero:
   name: "收集分享学习进步"
   text: ""
-  tagline: My great project tagline
+  tagline: 欢迎大家来贡献，让自己的技术得到总结，同时也可以帮助别人。
   actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 收集常用网站
+      link: /web
+    - theme: alt
+      text: 收集常用工具
+      link: /tools
+    - theme: alt
+      text: 文档的构建思路
+      link: /map
 
 features:
   - title: ubuntu系统搭建nginx php mysql(mariadb)
