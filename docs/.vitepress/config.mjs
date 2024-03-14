@@ -1,8 +1,8 @@
 /*
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2024-03-07 15:33:13
- * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2024-03-13 20:38:47
+ * @LastEditors: findnr cym504875043@gmail.com
+ * @LastEditTime: 2024-03-14 16:13:46
  * @FilePath: \instance_collection\docs\.vitepress\config.mjs
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -23,7 +23,7 @@ export default defineConfig({
     },
     lastUpdatedText: '最后更新时间',
     editLink: {
-      pattern: 'https://github.com/findnr/old_dev_doc/blob/main/docs/:path',
+      pattern: 'https://github.com/findnr/instance_collection/blob/main/docs/:path',
       text: '编辑这个页面'
     },
     outline: 'deep',
