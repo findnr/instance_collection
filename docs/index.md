@@ -25,6 +25,9 @@ hero:
     - theme: alt
       text: 旧文档
       link: https://old-dev-doc.pages.dev
+    - theme: alt
+      text: 信息学奥赛相关
+      link: /hotcomputer
       
 
 features:

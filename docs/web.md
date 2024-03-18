@@ -6,6 +6,9 @@
  * @FilePath: \instance_collection\docs\web.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
+### IT工作者
+- 官网：https://it-tools.tech github：https://github.com/CorentinTh/it-tools
+
 ### 算法网站
 - 官网：https://www.hello-algo.com github：https://github.com/krahets/hello-algo
 
