@@ -6,6 +6,16 @@
  * @FilePath: \instance_collection\docs\web.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
+### 国外信用卡相关网站
+- Depay：https://dupay.one
+- Onekey：https://card.onekey.so
+- WISE：https://wise.com
+### 国外接收短信验证码的网站
+- 官网：https://sms-activate.org
+  
+### 域名价格详细排名，在这里可以看到最低价格域名
+- 官网：https://www.nazhumi.com
+  
 ### IT工作者
 - 官网：https://it-tools.tech github：https://github.com/CorentinTh/it-tools
 
