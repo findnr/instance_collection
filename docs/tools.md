@@ -6,7 +6,17 @@
  * @FilePath: \instance_collection\docs\tools.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
- 
+### 深度学习
+- 飞桨：https://github.com/PaddlePaddle/Paddle
+- tensorflow：https://github.com/tensorflow/tensorflow
+- dlib：https://github.com/davisking/dlib
+- pytorch：https://github.com/pytorch/pytorch
+- keras：https://github.com/keras-team/keras
+  
+### OCR工具
+- Umi-OCR： https://github.com/hiroi-sora/Umi-OCR
+- 超轻量级中文ocr：https://github.com/DayBreak-u/chineseocr_lite
+- 车牌识别：https://github.com/szad670401/HyperLPR
 ### 开发工作中常用网页工具
 - it工具：https://it-tools.tech
 - 菜鸟教程：https://www.cainiaoplus.com
