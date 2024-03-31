@@ -6,6 +6,9 @@
  * @FilePath: \instance_collection\docs\web.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
+### ip地址检测
+- 检测外网：https://www.ipaddress.my
+- 检测内网：https://tool.lu/ip/
 ### 免费生成ssl证书
 - 一个提供免费HTTPS证书申请的网站：https://freessl.cn
   
