@@ -6,7 +6,7 @@
  * @Description: 
  */
 import nvm from "./nvm"
+import sql from "./sql"
 
 
-
-export default [nvm]
+export default [nvm,sql]

@@ -4,6 +4,10 @@ export default {
         {
             text: 'nvm',
             link: '/development/nvm/'
+        },
+        {
+            text: 'sql',
+            link: '/development/sql/'
         }
     ]
 }

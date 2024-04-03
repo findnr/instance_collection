@@ -2,7 +2,7 @@
  * @Author: findnr
  * @Date: 2024-04-03 13:45:29
  * @LastEditors: findnr
- * @LastEditTime: 2024-04-03 13:46:16
+ * @LastEditTime: 2024-04-03 14:05:19
  * @Description: 
  */
 export default {
@@ -10,7 +10,7 @@ export default {
     items: [
         {
             text: 'nginx',
-            link: '/development/nginx/'
+            link: '/soft/nginx/'
         }
     ]
 }

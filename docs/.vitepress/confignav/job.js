@@ -2,7 +2,7 @@
  * @Author: findnr
  * @Date: 2024-04-03 13:41:45
  * @LastEditors: findnr
- * @LastEditTime: 2024-04-03 13:43:40
+ * @LastEditTime: 2024-04-03 14:05:09
  * @Description: 
  */
 export default {
@@ -10,7 +10,7 @@ export default {
     items: [
         {
             text: 'wps',
-            link: '/development/wps/'
+            link: '/job/wps/'
         }
     ]
 }
