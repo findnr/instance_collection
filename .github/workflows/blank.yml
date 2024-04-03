@@ -9,12 +9,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: install zerotier
-        env:
-          ZEROTIER_ID: ${{ secrets.ZEROTIER_ID }}
-        run: |
-          curl -s https://install.zerotier.com | sudo bash
-          sudo zerotier-cli join "$ZEROTIER_ID"
+      # - name: install zerotier
+      #   env:
+      #     ZEROTIER_ID: ${{ secrets.ZEROTIER_ID }}
+      #   run: |
+      #     curl -s https://install.zerotier.com | sudo bash
+      #     sudo zerotier-cli join "$ZEROTIER_ID"
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v4
         with:
@@ -41,21 +41,21 @@ jobs:
           port: ${{ secrets.PORT }}
           source: "docs/.vitepress/dist/*"
           target: "/home/cym/commonhtml/doc/"
-      - name:  delete network
-        env:
-          ZEROTIER_ID: ${{ secrets.ZEROTIER_ID }}
-          ZEROTIER_TOKEN: ${{ secrets.ZEROTIER_TOKEN }}
-        run: |
-          url="https://api.zerotier.com/api/v1/network/$ZEROTIER_ID/member"
-          json_response=$(curl -s -X GET -H "Authorization: token $ZEROTIER_TOKEN" "$url")
-          echo "$json_response" | jq -c '.[]' | while read -r obj; do
-              zero_ip=$(echo "$obj" | jq -r '.config.ipAssignments[0]')
-              if [ "$ip_address" = "$zero_ip" ]; then
-                  nodeId=$(echo "$obj" | jq -r '.nodeId')
-                  urls="https://api.zerotier.com/api/v1/network/$ZEROTIER_ID/member/$nodeId"
-                  json_response=$(curl -s -X DELETE -H "Authorization: token $ZEROTIER_TOKEN" "$urls")
-              else
-                  echo "Strings are not equal"
-              fi
-          done
+      # - name:  delete network
+      #   env:
+      #     ZEROTIER_ID: ${{ secrets.ZEROTIER_ID }}
+      #     ZEROTIER_TOKEN: ${{ secrets.ZEROTIER_TOKEN }}
+      #   run: |
+      #     url="https://api.zerotier.com/api/v1/network/$ZEROTIER_ID/member"
+      #     json_response=$(curl -s -X GET -H "Authorization: token $ZEROTIER_TOKEN" "$url")
+      #     echo "$json_response" | jq -c '.[]' | while read -r obj; do
+      #         zero_ip=$(echo "$obj" | jq -r '.config.ipAssignments[0]')
+      #         if [ "$ip_address" = "$zero_ip" ]; then
+      #             nodeId=$(echo "$obj" | jq -r '.nodeId')
+      #             urls="https://api.zerotier.com/api/v1/network/$ZEROTIER_ID/member/$nodeId"
+      #             json_response=$(curl -s -X DELETE -H "Authorization: token $ZEROTIER_TOKEN" "$urls")
+      #         else
+      #             echo "Strings are not equal"
+      #         fi
+      #     done
       
