@@ -9,7 +9,8 @@ import os from "./os"
 import development from "./development"
 import network from "./network"
 import maxmodel from "./maxmodel"
+import job from "./job.js"
 
 export default function setNav() {
-    return [os,development,network,maxmodel]
+    return [os,development,network,maxmodel,job]
 }

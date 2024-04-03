@@ -10,7 +10,9 @@ import os from "./os"
 import development from "./development"
 import network from "./network"
 import maxmodel from "./maxmodel"
-const info = [...os,...development,...network,...maxmodel]
+import soft from "./soft"
+import job from "./job"
+const info = [...os,...development,...network,...maxmodel,...soft,...job]
 const sidebar = {}
 for (const k in info) {
   for (const ks in info[k]) {
