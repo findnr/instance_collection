@@ -50,6 +50,12 @@ jobs:
           ZEROTIER_ID: ${{ secrets.ZEROTIER_ID }}
           ZEROTIER_TOKEN: ${{ secrets.ZEROTIER_TOKEN }}
         run: |
+          ip addr
+          partial_name="ztrf"
+          interfaces=$(ip addr show | grep -oP "(?<=: )$partial_name\S*")
+          for interface in $interfaces; do
+              ip_address=$(ip addr show $interface | grep -oP '(?<=inet\s)\d+(\.\d+){3}')
+          done
           url="https://api.zerotier.com/api/v1/network/$ZEROTIER_ID/member"
           json_response=$(curl -s -X GET -H "Authorization: token $ZEROTIER_TOKEN" "$url")
           echo "$json_response" | jq -c '.[]' | while read -r obj; do
