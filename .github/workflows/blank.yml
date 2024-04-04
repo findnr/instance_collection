@@ -27,6 +27,7 @@ jobs:
       - name: start build
         run: |
           pnpm install && pnpm docs:build
+          mv docs/.vitepress/dist dist
           pwd
           ls
       - name: executing remote ssh commands using password
@@ -44,7 +45,7 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-          source: docs
+          source: dist/*
           target: /home/cym/commonhtml/doc/
       - name:  delete network
         env:
