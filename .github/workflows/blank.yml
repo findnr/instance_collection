@@ -27,7 +27,7 @@ jobs:
       - name: start build
         run: |
           pnpm install && pnpm docs:build
-          mv docs/.vitepress/dist dist
+          mv docs/.vitepress/dist doc
           pwd
           ls
       - name: executing remote ssh commands using password
@@ -37,7 +37,7 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-          script: rm -rf /home/cym/commonhtml/doc/*
+          script: rm -rf /home/cym/commonhtml/doc
       - name: copy docs file  ssh password
         uses: appleboy/scp-action@v0.1.7
         with:
@@ -45,8 +45,8 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-          source: dist/*
-          target: /home/cym/commonhtml/doc/
+          source: doc
+          target: /home/cym/commonhtml/
       - name:  delete network
         env:
           ZEROTIER_ID: ${{ secrets.ZEROTIER_ID }}
