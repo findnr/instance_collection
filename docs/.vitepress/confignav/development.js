@@ -15,6 +15,10 @@ export default {
         {
             text: '数据库',
             link: '/development/sql/'
+        },
+        {
+            text: 'php',
+            link: '/development/php/'
         }
     ]
 }

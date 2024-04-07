@@ -4,6 +4,7 @@ export default {
         link: 'index',
         items: [
             { text: '安装', link: 'install' },
+            { text: 'remi安装nginx配制实例', link: 'reminginx' },
         ]
     }]
 }
