@@ -11,6 +11,14 @@ export default {
         {
             text: 'nginx',
             link: '/soft/nginx/'
+        },
+        {
+            text: 'acme自动https',
+            link: '/soft/acme/'
+        },
+        {
+            text: 'remi仓库',
+            link: '/soft/remi/'
         }
     ]
 }

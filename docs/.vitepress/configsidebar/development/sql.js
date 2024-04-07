@@ -1,9 +1,18 @@
 export default {
-    "/development/sql/": [{
-        text: 'sql相关',
-        link: 'index',
+    "/development/sql/": [
+    {
+        text: 'mariadb/mysql',
+        link: 'mysql',
         items: [
-            { text: 'mysql/mariadb', link: 'mysql' },
+            { text: '安装', link: 'install' },
         ]
-    }]
+    },{
+        text: 'redis',
+        link: 'redis',
+        items: [
+            { text: '安装', link: 'install' },
+        ]
+    }
+    
+    ]
 }
