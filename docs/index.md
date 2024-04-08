@@ -31,10 +31,14 @@ hero:
       
 
 features:
-  - title: ubuntu系统搭建nginx php mysql(mariadb)
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /nginx/ubuntu/lnmp
+  - title: remi源仓库搭建phpmyadmin
+    details: 在rockylinux9的操作系统中搭建nginx,php,mariadb,phpmyadmin
+    link: /soft/nginx/reminginx.html
   - title: Feature B
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature C
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
