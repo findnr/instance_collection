@@ -31,11 +31,12 @@ hero:
       
 
 features:
-  - title: remi源仓库搭建phpmyadmin
+  - title: remi源搭建phpmyadmin
     details: 在rockylinux9的操作系统中搭建nginx,php,mariadb,phpmyadmin
     link: /soft/nginx/reminginx.html
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: nginx配制php url重写
+    details: 在nginx中配制url重写功能，在url中省去除输入（index.php）路径
+    link: /soft/nginx/writephp.html
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
