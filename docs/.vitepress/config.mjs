@@ -1,8 +1,8 @@
 /*
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2024-03-07 15:33:13
- * @LastEditors: findnr cym504875043@gmail.com
- * @LastEditTime: 2024-03-14 16:13:46
+ * @LastEditors: findnr
+ * @LastEditTime: 2024-04-13 21:43:03
  * @FilePath: \instance_collection\docs\.vitepress\config.mjs
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -27,7 +27,7 @@ export default defineConfig({
       text: '编辑这个页面'
     },
     outline: 'deep',
-    outlineTitle: '这是浏览目录',
+    outlineTitle: '选择可跳转',
     docFooter: {
       prev: '上一页',
       next: '下一页'
