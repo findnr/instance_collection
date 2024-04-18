@@ -41,3 +41,8 @@ systemctl restart zerotier-one
 ```sh
 zerotier-cli orbit XXXXXX XXXXXX（二个均改为moon的ID号)
 ```
+### 查看是否加入成功
+- 通过命令看一下是否成功，主要是看节点有没有带MOON的，如果有成功，否则失败
+```sh
+zerotier-cli listpeers
+```
