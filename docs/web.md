@@ -27,9 +27,6 @@
   
 ### 域名价格详细排名，在这里可以看到最低价格域名
 - 官网：https://www.nazhumi.com
-  
-### IT工作者
-- 官网：https://it-tools.tech github：https://github.com/CorentinTh/it-tools
 
 ### 算法网站
 - 官网：https://www.hello-algo.com github：https://github.com/krahets/hello-algo
