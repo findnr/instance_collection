@@ -6,6 +6,7 @@
  * @Description: 
 -->
 ### 
+- 配制https
 ```sh
 server {
     listen 443 ssl;
@@ -36,6 +37,7 @@ server {
     }
 }
 ```
+- 配制http
 ```sh
 server {
     listen       80;

@@ -21,6 +21,7 @@ unzip phpmyadmin.zip
 mv phpmyadmin /home/user/phpmyadmin
 ```
 - 在/etc/nginx/conf.d/文件夹中创建phpmyadmin.conf配制文件，配制内容如下，根据自己的情况修改就可以了
+- 配制https
 ```sh
 server{
     listen 443 ssl;
@@ -34,6 +35,9 @@ server{
     root /path/phpmyadmin; #当前应用的根文件夹
     include /etc/nginx/default.d/php.conf;
 }
+```
+- 配制http
+```sh
 server{
     listen 80;
     server_name test.abc.com; #域名

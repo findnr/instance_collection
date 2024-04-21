@@ -1,40 +1,40 @@
 {
-  "hash": "3200175d",
-  "configHash": "8e35e78b",
-  "lockfileHash": "1e0726ae",
-  "browserHash": "02c89a8d",
+  "hash": "b48cf805",
+  "configHash": "ab14665c",
+  "lockfileHash": "9b4c7d6b",
+  "browserHash": "8ec4b1d4",
   "optimized": {
     "vue": {
-      "src": "../../../../node_modules/.pnpm/vue@3.4.21/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "src": "../../../../node_modules/.pnpm/vue@3.4.23/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "820647b5",
+      "fileHash": "1b97d882",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
-      "src": "../../../../node_modules/.pnpm/@vue+devtools-api@7.0.27_vue@3.4.21/node_modules/@vue/devtools-api/dist/index.js",
+      "src": "../../../../node_modules/.pnpm/@vue+devtools-api@7.0.27_vue@3.4.23/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "6d19025f",
+      "fileHash": "2c9c7c92",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
-      "src": "../../../../node_modules/.pnpm/@vueuse+core@10.9.0_vue@3.4.21/node_modules/@vueuse/core/index.mjs",
+      "src": "../../../../node_modules/.pnpm/@vueuse+core@10.9.0_vue@3.4.23/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "9c4a1ef6",
+      "fileHash": "ce20daf8",
       "needsInterop": false
     },
     "@theme/index": {
-      "src": "../../../../node_modules/.pnpm/vitepress@1.1.0_@algolia+client-search@4.23.3_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/index.js",
+      "src": "../../../../node_modules/.pnpm/vitepress@1.1.3_@algolia+client-search@4.23.3_postcss@8.4.38_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/index.js",
       "file": "@theme_index.js",
-      "fileHash": "3cdbd82d",
+      "fileHash": "281614bb",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-3AYG376T": {
-      "file": "chunk-3AYG376T.js"
+    "chunk-YOG2ISTD": {
+      "file": "chunk-YOG2ISTD.js"
     },
-    "chunk-3DXR62HT": {
-      "file": "chunk-3DXR62HT.js"
+    "chunk-5CH6667N": {
+      "file": "chunk-5CH6667N.js"
     }
   }
 }
