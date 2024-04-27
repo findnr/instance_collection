@@ -12,8 +12,8 @@
 - 检测外网：https://www.ipaddress.my
 - 检测内网：https://tool.lu/ip/
 ### 免费生成ssl证书
-- 一个提供免费HTTPS证书申请的网站：https://freessl.cn
-  
+- 免费HTTPS证书申请的网站：https://freessl.cn
+- 免费HTTPS证书申请的网站：https://ohttps.com/
 ### 安装操作系统
 - 系统之家：https://www.xitongzhijia.net
 - 电脑店：https://u.diannaodian.com
