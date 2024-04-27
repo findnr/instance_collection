@@ -36,7 +36,7 @@ export default defineConfig({
       next: '下一页'
     },
   },
-  appearance: true,
+  appearance: 'dark',
   lang: 'zh-CN',
   lastUpdated: true
 })
