@@ -6,6 +6,8 @@
  * @FilePath: \instance_collection\docs\web.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
+### adobe creativecloud 下载地址
+- 下载地址：https://creativecloud.adobe.com/apps/download/creative-cloud?locale=en
 ### 软件支持时长详细列表（EOL time）
 - 网址：https://endoflife.date/
 ### ip地址检测
