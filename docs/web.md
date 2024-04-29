@@ -8,6 +8,7 @@
 -->
 ### adobe creativecloud 下载地址
 - 下载地址：https://creativecloud.adobe.com/apps/download/creative-cloud?locale=en
+- 破解软件：https://www.mediafire.com/file/rsdbnfi38eex4xv/
 ### 软件支持时长详细列表（EOL time）
 - 网址：https://endoflife.date/
 ### ip地址检测
