@@ -2,7 +2,7 @@
  * @Author: findnr
  * @Date: 2024-04-03 13:30:11
  * @LastEditors: findnr
- * @LastEditTime: 2024-04-07 15:14:20
+ * @LastEditTime: 2024-05-03 09:52:48
  * @Description: 
  */
 export default {
@@ -19,6 +19,44 @@ export default {
         {
             text: 'php',
             link: '/development/php/'
+        }
+        ,
+        {
+            text: 'git',
+            link: '/development/git/'
+        }
+        ,
+        {
+            text: 'java',
+            link: '/development/java/'
+        }
+        ,
+        {
+            text: 'javascript',
+            link: '/development/javascript/'
+        }
+        ,
+        {
+            text: 'powershell',
+            link: '/development/powershell/'
+        }
+        ,
+        {
+            text: 'shell',
+            link: '/development/shell/'
+        }
+        ,
+        {
+            text: 'vue',
+            link: '/development/vue/'
+        },
+        {
+            text: 'python',
+            link: '/development/python/'
+        },
+        {
+            text: 'node',
+            link: '/development/node/'
         }
     ]
 }
