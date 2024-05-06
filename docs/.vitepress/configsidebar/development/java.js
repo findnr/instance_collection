@@ -10,6 +10,7 @@ export default {
         text: 'java相关',
         link: 'index',
         items: [
+            { text: '开发环境搭建', link: 'devel' },
         ]
     }]
 }
