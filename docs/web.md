@@ -2,10 +2,16 @@
  * @Author: findnr cym504875043@gmail.com
  * @Date: 2024-03-14 09:23:32
  * @LastEditors: findnr
- * @LastEditTime: 2024-04-07 18:26:19
+ * @LastEditTime: 2024-05-08 20:54:25
  * @FilePath: \instance_collection\docs\web.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
+### 免费书籍用收集汇总
+- 书籍：https://github.com/lTbgykio/Books-Free-Books
+- 数据收集：https://github.com/fighting41love/funNLP
+- 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计：https://github.com/CyC2018/CS-Notes
+- 家庭网络知识整理：https://github.com/blanboom/awesome-home-networking-cn
+- 面向网络安全从业者的知识文库：https://github.com/PeiQi0/PeiQi-WIKI-Book
 ### adobe creativecloud 下载地址
 - 下载地址：https://creativecloud.adobe.com/apps/download/creative-cloud?locale=en
 - 破解软件：https://www.mediafire.com/file/rsdbnfi38eex4xv/

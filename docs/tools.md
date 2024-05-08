@@ -25,9 +25,5 @@
 - 菜鸟工具：https://www.jyshare.com
 - 在线转工具：https://www.lzltool.com
 
-### 手机连接电脑，可在电脑上操作手机
-- scrcpy：https://github.com/Genymobile/scrcpy
-- QtScrcpy：https://github.com/barry-ran/QtScrcpy
-
 ### 直播、录屏等相关的视频软件
 - obs：https://github.com/obsproject/obs-studio
