@@ -1,3 +1,10 @@
+/*
+ * @Author: findnr
+ * @Date: 2024-03-30 21:38:33
+ * @LastEditors: findnr
+ * @LastEditTime: 2024-05-26 07:11:53
+ * @Description: 
+ */
 export default {
     "/os/win/": [{
         text: 'win相关',
@@ -7,6 +14,7 @@ export default {
             { text: 'win相关产品激活', link: 'activate' },
             { text: 'win gost安装系统', link: 'gost' },
             { text: '开启多用户远程', link: 'remote' },
+            { text: '使用软件方式扩展屏幕', link: 'extscreen' },
         ]
     }]
 }
