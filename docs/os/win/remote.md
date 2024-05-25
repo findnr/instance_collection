@@ -13,6 +13,6 @@ control
 - 第六步：系统和安全->系统->远程桌面：设置为开或者启用
 - 第七步：下载RDPWrap的zip包然后解压（注意新建一个文件夹）：https://github.com/stascorp/rdpwrap/releases
 - 第八步：使用install.bat安装，再使用update.bat进行更新，最后使用RDPConf.exe进行查看，是否是绿色的提示（绿色的可行，红色的不行）
-- 第九步：如果是红色的才操作，打开链接：https://raw.githubusercontent.com/sebaxakerhtc/rdpwrap.ini/master/rdpwrap.ini（把内容覆盖：C:\Program Files\RDP Wrapper\rdpwrap.ini）
+- 第九步：如果是红色的才操作，打开链接：https://raw.githubusercontent.com/sebaxakerhtc/rdpwrap.ini/master/rdpwrap.ini （把内容覆盖：C:\Program Files\RDP Wrapper\rdpwrap.ini）
 - 第十步：重启电脑，这样就可以一个帐户多人使用或者是多个帐户多人使用，相互不影响。
 
