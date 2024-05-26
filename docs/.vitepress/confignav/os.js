@@ -30,6 +30,10 @@ export default {
         {
             text: 'android',
             link: '/os/android/'
+        },
+        {
+            text: 'batocera',
+            link: '/os/batocera/'
         }
     ]
 }
