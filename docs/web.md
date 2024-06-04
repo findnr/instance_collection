@@ -6,6 +6,14 @@
  * @FilePath: \instance_collection\docs\web.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
+### ai搜索
+- perplexity：https://www.perplexity.ai
+- 秘塔ai：https://metaso.cn
+- 360ai：https://so.chat.360.cn
+- 百度：https://chat.baidu.com
+- openai：https://chatgpt.com
+- gemini：https://gemini.google.com
+- copilot：https://copilot.microsoft.com
 ### 免费书籍用收集汇总
 - 书籍：https://github.com/lTbgykio/Books-Free-Books
 - 数据收集：https://github.com/fighting41love/funNLP
