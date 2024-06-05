@@ -2,7 +2,7 @@
  * @Author: findnr
  * @Date: 2024-04-03 13:45:29
  * @LastEditors: findnr
- * @LastEditTime: 2024-04-03 14:05:19
+ * @LastEditTime: 2024-06-05 10:20:13
  * @Description: 
  */
 export default {
@@ -19,6 +19,10 @@ export default {
         {
             text: 'remi仓库',
             link: '/soft/remi/'
+        },
+        {
+            text: 'samba',
+            link: '/soft/samba/'
         }
     ]
 }

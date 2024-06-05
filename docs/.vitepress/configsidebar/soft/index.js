@@ -8,5 +8,6 @@
 import nginx from "./nginx"
 import acme from "./acme"
 import remi from "./remi"
+import samba from "./samba"
 
-export default [nginx,acme,remi]
+export default [nginx,acme,remi,samba]
