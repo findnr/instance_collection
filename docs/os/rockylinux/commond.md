@@ -10,6 +10,6 @@ dnf install psmisc
 #-V	显示pstree的版本信息
 #-p pid	显示进程号为pid的进程信息
 #-u user	显示用户名为user的进程信息
-########举例
+########    举例
 pstree -p
 ```
