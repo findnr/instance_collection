@@ -2,7 +2,7 @@
  * @Author: findnr
  * @Date: 2024-05-10 09:23:52
  * @LastEditors: findnr
- * @LastEditTime: 2024-06-26 20:58:14
+ * @LastEditTime: 2024-06-26 21:03:28
  * @Description: 
 -->
 #### 进程相关
@@ -63,7 +63,11 @@ lastb
 echo > /var/log/btmp
 ```
 #### 清空历史执行命令
-- 使用history -c
+- 第一种：使用history -c
 ```sh
 history -c
+```
+- 第二种：清空用户目录下的这个文件即可
+```sh
+echo > ./.bash_history
 ```
