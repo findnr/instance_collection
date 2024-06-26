@@ -2,7 +2,7 @@
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2024-03-07 15:33:13
  * @LastEditors: findnr
- * @LastEditTime: 2024-06-19 14:47:38
+ * @LastEditTime: 2024-06-26 20:12:40
  * @FilePath: \instance_collection\docs\.vitepress\config.mjs
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -11,7 +11,7 @@ import setNav from "./confignav"
 import setSidebar from "./configsidebar"
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base:'./',
+  // base:'./',
   title: "收集开发用到的相关内容",
   description: "收集开发用到的相关内容",
   themeConfig: {
