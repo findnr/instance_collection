@@ -36,7 +36,7 @@ acme.sh --install-cert -d example.com --cert-file /path/to/certfile/in/apache/ce
 ### 执行命令自动更新脚本nginx
 ```sh
 # 如果域名是*.test.com 时*号要转义 \*
-acme.sh --install-cert -d example.com --key-file /path/to/keyfile/in/nginx/key.pem  --fullchain-file /path/to/fullchain/nginx/cert.pem  -reloadcmd     "systemctl reload nginx"
+acme.sh --install-cert -d example.com --key-file /path/to/keyfile/in/nginx/key.pem  --fullchain-file /path/to/fullchain/nginx/cert.pem  --reloadcmd "systemctl reload nginx"
 ```
 ```sh
 acme.sh --upgrade    # 手动升级
