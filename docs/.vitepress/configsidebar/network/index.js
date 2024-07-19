@@ -7,5 +7,6 @@
  */
 import zerotier from "./zerotier"
 import frp from "./frp"
+import huawei from "./huawei"
 
-export default [zerotier,frp]
+export default [zerotier,frp,huawei]
