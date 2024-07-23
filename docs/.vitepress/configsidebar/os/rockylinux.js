@@ -2,7 +2,7 @@
  * @Author: findnr
  * @Date: 2024-03-14 09:23:32
  * @LastEditors: findnr
- * @LastEditTime: 2024-06-26 20:52:10
+ * @LastEditTime: 2024-07-23 10:46:05
  * @Description: 
  */
 export default {
@@ -12,6 +12,7 @@ export default {
         items: [
             { text: '常用命令', link: 'command' },
             { text: 'samba服务配制案例', link: 'samba' },
+            { text: '免密登录案例', link: 'no_password_login' },
         ]
     }]
 }
