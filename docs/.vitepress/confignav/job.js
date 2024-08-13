@@ -15,6 +15,10 @@ export default {
         {
             text: '贵阳基层医疗系统',
             link: '/job/hpgyjcylxt/'
+        },
+        {
+            text:'海康hikvision',
+            link: '/job/hikvision/'
         }
     ]
 }
