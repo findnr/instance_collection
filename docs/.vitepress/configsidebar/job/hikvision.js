@@ -2,7 +2,7 @@
  * @Author: findnr
  * @Date: 2024-08-14 06:39:38
  * @LastEditors: findnr
- * @LastEditTime: 2024-08-14 06:41:14
+ * @LastEditTime: 2024-08-20 11:38:05
  * @Description: 
  */
 export default {
@@ -11,6 +11,8 @@ export default {
         link: 'index',
         items: [
             { text: '常用信息', link: 'info' },
+            { text: '录像机', link: 'vrc' },
+            { text: '摄像头', link: 'camera' },
         ]
     }]
 }
