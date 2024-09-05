@@ -2,7 +2,7 @@
  * @Author: findnr
  * @Date: 2024-04-21 14:47:38
  * @LastEditors: findnr
- * @LastEditTime: 2024-04-25 06:55:57
+ * @LastEditTime: 2024-09-05 11:34:21
  * @Description: 
  */
 /*
@@ -25,6 +25,7 @@ export default {
             { text: '配制负载均衡', link: 'loadbalancing' },
             { text: '配制vue相关', link: 'vue' },
             { text: '配制防盗链', link: 'nolink' },
+            { text: '反向代理常见问题', link: 'reverse_proxy_question' },
         ]
     }]
 }
