@@ -2,7 +2,7 @@
  * @Author: findnr
  * @Date: 2024-04-03 13:45:29
  * @LastEditors: findnr
- * @LastEditTime: 2024-06-05 10:20:13
+ * @LastEditTime: 2024-11-04 10:54:16
  * @Description: 
  */
 export default {
@@ -23,6 +23,11 @@ export default {
         {
             text: 'samba',
             link: '/soft/samba/'
+        }
+        ,
+        {
+            text: 'linux相关常用软件操作',
+            link: '/soft/linux/'
         }
     ]
 }

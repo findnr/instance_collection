@@ -2,7 +2,7 @@
  * @Author: findnr
  * @Date: 2024-09-05 11:34:26
  * @LastEditors: findnr
- * @LastEditTime: 2024-09-05 11:45:19
+ * @LastEditTime: 2024-10-30 14:49:20
  * @Description: 
 -->
 ###### 提示错误:NET::ERR_INCOMPLETE_CHUNKED_ENCODING 200 (OK) 提示错误：net::ERR_CONTENT_LENGTH_MISMATCH
@@ -26,4 +26,10 @@ location /test {
     proxy_pass http://127.0.0.1:9999/;
     proxy_buffering off;
 }
+```
+##### 提示代理出现500的情况，就是缓存的目录权限不足(单测接口没有问题，使用用反向代理出问题)
+- 解决办法
+```sh
+# 修改目录权限
+chmod 777 /var/cache/nginx/proxy_temp -R
 ```
