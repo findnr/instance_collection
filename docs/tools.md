@@ -6,6 +6,8 @@
  * @FilePath: \instance_collection\docs\tools.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
+### 鼠标键盘共享到多台主机
+- synergy：https://symless.com/synergy
 ### 键盘信息相关
 - 键盘按键显示(keyviz)：https://github.com/mulaRahul/keyviz
 - 获取键盘码：https://www.bejson.com/othertools/keycodes
