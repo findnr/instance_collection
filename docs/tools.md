@@ -1,8 +1,8 @@
 <!--
  * @Author: findnr cym504875043@gmail.com
  * @Date: 2024-03-13 20:28:45
- * @LastEditors: findnr cym504875043@gmail.com
- * @LastEditTime: 2024-03-18 09:11:02
+ * @LastEditors: findnr
+ * @LastEditTime: 2024-12-05 16:41:39
  * @FilePath: \instance_collection\docs\tools.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->

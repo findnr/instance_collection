@@ -10,6 +10,7 @@ export default {
         text: 'wps相关',
         link: 'index',
         items: [
+            { text: '画线操作', link: 'line' },
             { text: '时间戳转时间', link: 'timeto' },
         ]
     }]
