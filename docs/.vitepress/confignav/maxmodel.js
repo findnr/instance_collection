@@ -2,7 +2,7 @@
  * @Author: findnr
  * @Date: 2024-04-02 20:53:12
  * @LastEditors: findnr
- * @LastEditTime: 2024-04-02 21:09:35
+ * @LastEditTime: 2025-01-02 16:37:06
  * @Description: 
  */
 export default {
@@ -23,6 +23,10 @@ export default {
         {
             text: 'copilot',
             link: '/maxmodel/copilot/'
+        },
+        {
+            text: '自建本地大模型',
+            link: '/maxmodel/own/'
         }
     ]
 }
