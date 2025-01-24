@@ -2,7 +2,7 @@
  * @Author: findnr
  * @Date: 2024-04-03 13:45:29
  * @LastEditors: findnr
- * @LastEditTime: 2024-11-04 10:54:16
+ * @LastEditTime: 2025-01-22 21:59:17
  * @Description: 
  */
 export default {
@@ -28,6 +28,14 @@ export default {
         {
             text: 'linux相关常用软件操作',
             link: '/soft/linux/'
+        },
+        {
+            text: 'rustdesk自建远程桌面',
+            link: '/soft/rustdesk/'
+        },
+        {
+            text: 'frp内网穿透搭建',
+            link: '/soft/frp/'
         }
     ]
 }
