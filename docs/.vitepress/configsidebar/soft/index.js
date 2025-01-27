@@ -12,5 +12,6 @@ import samba from "./samba"
 import linux from "./linux"
 import rustdesk from "./rustdesk"
 import frp from "./frp"
+import wireguard from "./wireguard"
 
-export default [nginx,acme,remi,samba,linux,rustdesk,frp]
+export default [nginx,acme,remi,samba,linux,rustdesk,frp,wireguard]

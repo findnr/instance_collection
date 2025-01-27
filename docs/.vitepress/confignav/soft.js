@@ -2,7 +2,7 @@
  * @Author: findnr
  * @Date: 2024-04-03 13:45:29
  * @LastEditors: findnr
- * @LastEditTime: 2025-01-22 21:59:17
+ * @LastEditTime: 2025-01-27 13:59:06
  * @Description: 
  */
 export default {
@@ -36,6 +36,10 @@ export default {
         {
             text: 'frp内网穿透搭建',
             link: '/soft/frp/'
+        },
+        {
+            text: 'wireguard搭建',
+            link: '/soft/wireguard/'
         }
     ]
 }
