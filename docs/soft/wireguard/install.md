@@ -2,7 +2,7 @@
  * @Author: findnr
  * @Date: 2025-01-27 13:51:32
  * @LastEditors: findnr
- * @LastEditTime: 2025-01-27 14:05:20
+ * @LastEditTime: 2025-02-05 09:19:59
  * @Description: 
 -->
 #### wireguard搭建
@@ -34,8 +34,4 @@ AllowedIPs = 192.168.233.2/32
 [Peer]
 PublicKey = 6ktp9LrmD/MNiv69J4pzEG3DL2EBODlQyfZsNK1owB8=
 AllowedIPs = 192.168.233.3/32
-
-[Peer]
-PublicKey = QtOznxqteSwzVeCbQozx3xfibtDfMsEZz22GKe87CDQ=
-AllowedIPs = 192.168.233.4/32
 ```
