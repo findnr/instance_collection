@@ -19,6 +19,18 @@ export default {
         {
             text: 'huawei',
             link: '/network/huawei/'
+        },
+        {
+            text: 'rustdesk',
+            link: '/network/rustdesk/'
+        },
+        {
+            text: 'wireguard',
+            link: '/network/wireguard/'
+        },
+        {
+            text: 'softether',
+            link: '/network/softether/'
         }
     ]
 }
