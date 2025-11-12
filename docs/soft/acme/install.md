@@ -26,7 +26,7 @@ acme.sh --install-cert -d test.com --ecc \
 --fullchain-file /etc/nginx/ssl/test.com/fullchain.pem \
 --reloadcmd      "systemctl reload nginx"
 ```
-- 实例（配制 nginx）
+### 实例（配制 nginx）
 ```json
 server{
         listen 443 ssl;
@@ -49,7 +49,7 @@ server{
         }
 }
 ```
-- 实例（配制 nginx 之反向代理TZ）
+### 实例（配制 nginx 之反向代理TZ）
 ```json
 server{
    server_name bing.test.com;
