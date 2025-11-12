@@ -37,7 +37,7 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-          script: rm -rf /home/cym/commonhtml/doc
+          script: rm -rf /home/doc
       - name: copy docs file  ssh password
         uses: appleboy/scp-action@v0.1.7
         with:
@@ -46,7 +46,7 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           source: doc
-          target: /home/cym/commonhtml/
+          target: /home/
       - name:  delete network
         env:
           ZEROTIER_ID: ${{ secrets.ZEROTIER_ID }}
