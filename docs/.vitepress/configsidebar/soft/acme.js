@@ -11,6 +11,7 @@ export default {
         link: 'index',
         items: [
             { text: '安装与使用', link: 'install' },
+            { text: '安装与使用(中国大陆)', link: 'installchina' },
         ]
     }]
 }
